@@ -5,6 +5,10 @@
     <div>
       <img class="image-size" src="../assets/TwoPeople.png" />
     </div>
+    <div class="arrow-area">
+      <LeftArrow />
+      <RightArrow />
+    </div>
     <div class="main-detail">
       <span>Lorem Ipsum is simply</span>
     </div>
@@ -20,8 +24,14 @@
 </template>
 
 <script>
+import LeftArrow from "./icons/LeftArrow.vue";
+import RightArrow from "./icons/RightArrow.vue";
 export default {
   name: "SectionTwo",
+  components: {
+    LeftArrow,
+    RightArrow,
+  },
 };
 </script>
 
@@ -63,19 +73,26 @@ export default {
   font-size: 26px;
   line-height: 32px;
   padding-left: 809px;
-  padding-top: 61px;
-  color: #FFFFFF;
+  padding-top: 32px;
+  color: #ffffff;
 }
 
 .sub-detail {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 600;
-  font-size: 26px;
-  line-height: 32px;
-  width: 1300px;
-  padding: 20px 0px 0px 420px;
-  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  width: 856px;
+  padding: 20px 0px 0px 532px;
+  color: #ffffff;
   text-align: center;
+  height: 81px
+}
+.arrow-area {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 </style>

@@ -36,11 +36,12 @@ export default {
   margin: 0px -8px 0px -8px;
 }
 .lorem-title {
+  width: 600px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 82px;
+  line-height: 73px;
   text-transform: uppercase;
 }
 
