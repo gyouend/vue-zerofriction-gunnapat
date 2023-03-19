@@ -65,5 +65,8 @@ export default {
   padding-right: 30px;
   color: #ffffff;
 }
+.arrow-down{
+  margin-left: 4px;
+}
 
 </style>

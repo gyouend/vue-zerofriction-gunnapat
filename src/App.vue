@@ -1,16 +1,25 @@
 <template>
   <HeaderLorem/>
-  <SectionOneVue/>
+  <SectionOne/>
+  <SectionTwo/>
+  <SectionThree/>
+  <SectionFour/>
 </template>
 
 <script>
 import HeaderLorem from './components/HeaderLorem.vue';
-import SectionOneVue from './components/SectionOne.vue';
+import SectionOne from './components/SectionOne.vue';
+import SectionTwo from './components/SectionTwo.vue';
+import SectionThree from './components/SectionThree.vue';
+import SectionFour from './components/SectionFour.vue';
 export default {
   name: 'App',
   components: {
     HeaderLorem,
-    SectionOneVue
+    SectionOne,
+    SectionTwo,
+    SectionThree,
+    SectionFour
   }
 }
 </script>
