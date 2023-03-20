@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import ListView from "../ListView.vue";
+import ListView from "../components/ListView.vue";
 export default {
   name: "SectionThree",
   components: {

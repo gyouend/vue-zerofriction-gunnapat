@@ -3,7 +3,7 @@
     <span class="lorem-title title">LOREM IPSUM</span>
     <span class="lorem-title second-title">LOREM</span>
     <div>
-      <img class="image-size" src="../../assets/TwoPeople.png" />
+      <img class="image-size" src="../assets/TwoPeople.png" />
     </div>
     <div class="arrow-area">
       <LeftArrow />
@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import LeftArrow from "../icons/LeftArrow.vue";
-import RightArrow from "../icons/RightArrow.vue";
+import LeftArrow from ".././components/icons/LeftArrow.vue";
+import RightArrow from ".././components/icons/RightArrow.vue";
 export default {
   name: "SectionTwo",
   components: {

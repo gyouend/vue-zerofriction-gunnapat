@@ -1,7 +1,7 @@
 <template>
   <div class="bg-section-four">
     <div>
-      <img class="image-size" src="../../assets/MotorBic.png" />
+      <img class="image-size" src="../assets/MotorBic.png" />
     </div>
     <div class="form-position">
       <form>
