@@ -1,7 +1,7 @@
 <template>
   <div class="bg-section-four">
     <div>
-      <img class="image-size" src="../assets/MotorBic.png" />
+      <img class="image-size" src="../../assets/MotorBic.png" />
     </div>
     <div class="form-position">
       <form>
@@ -38,6 +38,7 @@
 </template>
 
 <script>
+//lib VueDatePicker import in the project 
 import VueDatePicker from "@vuepic/vue-datepicker";
 import "@vuepic/vue-datepicker/dist/main.css";
 import { ref } from "vue";

@@ -4,7 +4,7 @@
     <div class="space-title">
       <div><span class="lorem-title title">LOREM</span></div>
       <span class="lorem-title second-title">IPSUM</span>
-      <div><img class="image-size" src="../assets/MotorBic.png" /></div>
+      <div><img class="image-size" src="../../assets/MotorBic.png" /></div>
     </div>
     <div class="main-detail">
       <span
