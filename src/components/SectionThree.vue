@@ -3,17 +3,9 @@
     <div class="lorem-title title">
       <span>LOREM IPSUM</span>
     </div>
-    <v-row class="reverse-position">
-      <v-col class="space-items">
-        <ListView />
-      </v-col>
-      <v-col class="space-items">
-        <ListView />
-      </v-col>
-      <v-col class="space-items">
-        <ListView />
-      </v-col>
-    </v-row>
+    <div class="reverse-position">
+        <ListView class="space-items"/>
+    </div>
   </div>
 </template>
 

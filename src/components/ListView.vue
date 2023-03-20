@@ -1,15 +1,13 @@
 <template>
-  <div class="area-card">
+  <div class="area-card" v-for="(product, index) in products" :key="index">
     <div> 
-        <img class="image-size" src="../assets/RidePic.png" />
+        <img class="image-size" :src="product.thumbnail" />
     </div>
     <div class="main-detail"> 
-        <span >Lorem Ipsum is simply</span>
+        <span>{{ product.title }}</span>
     </div>
     <div class="sub-detail"> 
-        <span >Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry...</span
-    >
+        <span>{{ product.description }}</span>
     </div>
   </div>
 </template>
@@ -17,6 +15,22 @@
 <script>
 export default {
   name: "ListView",
+  data() {
+    return {
+      products: [],
+    };
+  },
+  async mounted() {
+    try {
+      //get api title,description,imageUrl use when product.value krub
+      //basiclly way (not axios lib)
+      const response = await fetch('https://dummyjson.com/products?limit=3');
+      const data = await response.json();
+      this.products = data.products;
+    } catch (error) {
+      console.log(error);
+    }
+  },
 };
 </script>
 
@@ -25,6 +39,7 @@ export default {
   background: #ffffff;
   height: 443px;
   width: 416px;
+  margin-left: 24px;
   margin-top: 64px;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
