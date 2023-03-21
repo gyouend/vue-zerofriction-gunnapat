@@ -1,0 +1,3 @@
+[submodule "vue-zerofriction-gunnapat"]
+	path = vue-zerofriction-gunnapat
+	url = https://github.com/gyouend/vue-zerofriction-gunnapat.git
