@@ -31,8 +31,10 @@ export default {
   display: flex;
   align-items: center;
   height: 150px;
-  margin: -8px -8px 0px -8px;
-  padding-left: 173px;
+  margin: 0px 8px 0px -8px;
+
+
+  padding-left: 172px;
 }
 .common-style {
   font-family: "Montserrat";

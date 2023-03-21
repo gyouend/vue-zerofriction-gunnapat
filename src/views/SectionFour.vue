@@ -67,6 +67,7 @@ export default {
   display: flex;
   background-color: #000000;
   height: 1000px;
+  width: 100%;
   margin: 0px -8px 0px -8px;
 }
 .image-size {

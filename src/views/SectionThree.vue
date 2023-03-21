@@ -25,6 +25,7 @@ export default {
 .bg-section-three{
   background: #d9ef0c;
   height: 1000px;
+  width: 100%;
   margin: 0px -8px 0px -8px;
 }
 .lorem-title {

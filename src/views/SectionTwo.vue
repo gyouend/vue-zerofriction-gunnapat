@@ -41,6 +41,7 @@ export default {
 .bg-section-two {
   background-color: #000000;
   height: 900px;
+  width: 100%;
   margin: 0px -8px 0px -8px;
 }
 .lorem-title {
